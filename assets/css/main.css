@@ -4,23 +4,23 @@
 
 @font-face {
   font-family: 'MoonTime';
-  src: url('/assets/Fonts/MoonTime-Regular.eot');
-  src: url('/assets/Fonts/MoonTime-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/assets/Fonts/MoonTime-Regular.woff2') format('woff2'),
-    url('/assets/Fonts/MoonTime-Regular.woff') format('woff'),
-    url('/assets/Fonts/MoonTime-Regular.ttf') format('truetype');
+  src: url('/assets/fonts/MoonTime-Regular.eot');
+  src: url('/assets/fonts/MoonTime-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/MoonTime-Regular.woff2') format('woff2'),
+    url('/assets/fonts/MoonTime-Regular.woff') format('woff'),
+    url('/assets/fonts/MoonTime-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'COSMO';
-  src: url('/assets/Fonts/COSMORegular.ttf');
-  src: url('/assets/Fonts/COSMORegular.eot?#iefix') format('embedded-opentype'),
-    url('/assets/Fonts/COSMORegular.woff2') format('woff2'),
-    url('/assets/Fonts/COSMORegular.woff') format('woff'),
-    url('/assets/Fonts/COSMORegular.ttf') format('truetype'),
-    url('/assets/Fonts/COSMORegular.svg#COSMORegular') format('svg');
+  src: url('/assets/fonts/COSMORegular.ttf');
+  src: url('/assets/fonts/COSMORegular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/COSMORegular.woff2') format('woff2'),
+    url('/assets/fonts/COSMORegular.woff') format('woff'),
+    url('/assets/fonts/COSMORegular.ttf') format('truetype'),
+    url('/assets/fonts/COSMORegular.svg#COSMORegular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
