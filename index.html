@@ -9,24 +9,47 @@
     <!-- Page Title -->
     <title>Istamboulines</title>
 
-    <!-- Compressed Styles -->
-    <!-- <link href="css/slides.min.css?41331" rel="stylesheet" type="text/css"> -->
+    <!-- Fonts -->
 
-    <!-- Custom Styles -->
+    <style type="text/css" media="screen">
+        @font-face {
+            font-family: 'MoonTime';
+            src: url('/assets/Fonts/MoonTime-Regular.eot');
+            src: url('/assets/Fonts/MoonTime-Regular.eot?#iefix') format('embedded-opentype'),
+                url('/assets/Fonts/MoonTime-Regular.woff2') format('woff2'),
+                url('/assets/Fonts/MoonTime-Regular.woff') format('woff'),
+                url('/assets/Fonts/MoonTime-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'COSMO';
+            src: url('/assets/Fonts/COSMORegular.ttf');
+            src: url('/assets/Fonts/COSMORegular.eot?#iefix') format('embedded-opentype'),
+                url('/assets/Fonts/COSMORegular.woff2') format('woff2'),
+                url('/assets/Fonts/COSMORegular.woff') format('woff'),
+                url('/assets/Fonts/COSMORegular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Compressed Fonts -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css">
-
-
     <!-- jQuery 3.3.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <!-- Compressed Scripts -->
     <script src="assets/js/slides.min.js?41331" type="text/javascript"></script>
-
-
     <!-- Fonts and Material Icons -->
     <link rel="stylesheet" as="font"
         href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons" />
-
     <style type="text/css">
         img[onload^="SVGInject("] {
             visibility: hidden;
@@ -224,19 +247,6 @@
 
     </svg>
 
-    <!-- Navigation -->
-
-
-
-
-
-
-    <!-- Sidebar -->
-
-
-
-
-
     <!-- Home -->
     <section id="Home" class="slide whiteSlide simplifiedMobile">
         <div class="content">
@@ -245,11 +255,12 @@
 
                     <div class="fix-12-12">
                         <div class="fix-3-12">
-                            <h1 class="huge">Istamboulines</h1>
-                            <a href="#" title="Istamboulines"><svg>
+                            <h1 class="ae-1 huge">Istamboulines</h1>
+                            <a class="ae-3" href="#" title="Istamboulines"><svg>
                                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
                                 </svg></a>
-                            <h2 class="soon">Site en construction<span>.</span><span>.</span><span>.</span></h2>
+                            <h2 class="ae-2 typography soon">Site en
+                                construction<span>.</span><span>.</span><span>.</span></h2>
                         </div>
                         <div>
 
@@ -267,12 +278,13 @@
 
     <!-- Panel bottom #08 -->
 
-    <nav class="panel bottom forceMobileView">
+    <nav class="panel bottom compact forceMobileView">
         <div class="sections desktop">
             <div class="left"></div>
 
 
             <div class="center">
+                <h4 class="findUsHere">dans l'attente, retrouvez nous ici</h4>
                 <ul class="menu trim">
                     <li><a href="https://istamboulines.wordpress.com/" target="_blank"><svg version="1.1" id="wordpress"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -294,7 +306,7 @@
                                 </g>
                             </svg>
                         </a></li>
-                    <li class="cropRight"><a href="https://www.instagram.com/istamboulines/" class="trimRight"
+                    <li class="menu trim"><a href="https://www.instagram.com/istamboulines/" class="trimRight"
                             target="_blank"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 551.034 551.034"
                                 style="enable-background:new 0 0 551.034 551.034;" xml:space="preserve">
@@ -358,7 +370,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    <script src="assets/js/plugins.js"></script>
+
     <script src="assets/js/scripts.js"></script>
 </body>
 
